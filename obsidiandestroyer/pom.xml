@@ -17,7 +17,8 @@
     </issueManagement>
 
     <build>
-        <directory>../target</directory>
+        <directory>../
+             </directory>
         <finalName>ObsidianDestroyer</finalName>
         <sourceDirectory>${basedir}/src/main/java</sourceDirectory>
         <resources>
@@ -36,7 +37,7 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-shade-plugin</artifactId>
-                <version>1.4</version>
+                <version>1.6</version>
                 <executions>
                     <execution>
                         <phase>package</phase>
